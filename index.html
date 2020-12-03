@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PortableMC</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+    <style>
+        .hero.is-large .hero-body {
+            padding-bottom: 0;
+            padding-top: 10rem;
+        }
+        .hero figure {
+            height: 0;
+            padding-bottom: 75%;
+            overflow: hidden;
+        }
+        figure.image {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        .bg-light {
+            background-color: #faf6fb;
+        }
+        .media-left {
+            padding-left: 15px;
+        }
+        .media-left .icon {
+            margin-top: 15px;
+
+        }
+
+        .media-content {
+            padding-left: 25px;
+        }
+
+        .media {
+            background-color: #ffffff;
+            padding: 25px;
+        }
+
+        .section {
+            padding: 7rem 5rem;
+        }
+
+        .content h1 {
+            margin-bottom: 2em;
+        }
+
+        #stn-download {
+            color: #ffffff;
+            background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+        }
+
+        .hero.is-landing {
+            color: #ffffff;
+            background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+        }
+
+        .hero.is-landing * {
+            color: #ffffff;
+        }
+
+        #stn-download h1 {
+            color: #ffffff;
+        }
+
+        .button.button-store {
+            border-radius: 3px;
+            background: #FFF;
+            box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+            font-size: 14px;
+            font-weight: 500;
+            color: #633991;
+            margin: 0.5rem;
+            padding: 0.7rem 1.6rem;
+            line-height: 1.8;
+            height: auto;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+
+            display: inline-block;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+
+        .button.button-store:hover {
+            color: #000000;
+            background-color: #faf6fb;
+        }
+
+        .button.button-store img {
+            margin-right: 0.4rem;
+            vertical-align: text-bottom;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content-wrapper">
+
+    <section class="hero is-landing is-large">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="mainNavbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="mainNavbar" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a id="#feet" class="navbar-item">
+                                Features
+                            </a>
+                            <a href="https://github.com/portablemc/portablemc" class="navbar-item">
+                                Github Page
+                            </a>
+                            <span class="navbar-item">
+                                <a href="#download" class="button is-info is-inverted is-outlined">
+                                    <span>Download</span>
+                                </a>  
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+
+                <div class="columns">
+                    <div class="column is-6 is-offset-3">
+                        <h1 class="title is-1">
+                            PortableMC
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            A portable version of Minecraft, great for bypassing school security and using without admin permissions
+                        </h2>
+
+                        <span class="navbar-item">
+                            <a href="#download" class="button is-info is-inverted is-outlined">
+                                <span>Download</span>
+                            </a>
+                        </span>
+                        <figure class="image">
+                            <img src="img/i.png" alt="" width="100">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-light">
+        <div class="container section">
+            <div class="content has-text-centered">
+                <h1 id="feet" >Features</h1>
+            </div>
+
+            <nav class="columns">
+                <div class="column has-text-centered">
+                    <article class="media">
+                        <figure class="media-left">
+                            <span class="icon has-text-danger">
+                                <i class="fas fa-cog fa-3x"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4 class="heading"><strong>Easy to setup!</strong></h4>
+                                <p>Download and extract the files, run the .exe and that's it! if you want to play again, use the same exe file!
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="column has-text-centered">
+                    <article class="media">
+                        <figure class="media-left">
+                            <span class="icon has-text-danger">
+                                <i class="fas fa-cog fa-3x"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4 class="heading"><strong>No viruses!</strong></h4>
+                                <p>yeetedmeme has checked this code over and over, no viruses!
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column has-text-centered">
+                    <article class="media">
+                        <figure class="media-left">
+                            <span class="icon has-text-danger">
+                                <i class="fas fa-cog fa-3x"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                    <h4 class="heading"><strong>Perfect for bypassing school security</strong></h4>
+                                    <p>.ZIP download ensures that schools wont block it, no admin permissions needed, and can run off a usb
+                                    </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section id="stn-download">
+        <div class="container section has-text-centered">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+
+                    <h1 class="title is-2">Download</h1>
+
+                    <a id="download" style="text-align:center;" href="https://github.com/portablemc/portablemc/releases" class="button button-store">
+                        <img src="img/github.png" alt="icon"> Github Download
+                    </a>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    PortableMC built
+                    with
+                    <span class="icon has-text-danger">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    by <a href="https://yeetedmeme.js.org">yeetedmeme</a>
+                    @ 2020.
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
