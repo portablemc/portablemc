@@ -2,7 +2,7 @@
 
 PortableMC is an easy to setup portable Minecraft installation!
 
-Download And Run PoratbleMC.exe, this will extract files into the folder the exe is in so choose it beforehand.
+Download, Extract And Run PoratbleMC.exe, this will extract files into the folder the exe is in so choose it beforehand.
 
 Whenever you want to run it again just run the exe again.
 
