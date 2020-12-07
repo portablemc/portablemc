@@ -64,8 +64,6 @@ To get the program up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
 If using the java release you need:
 [Java](https://www.java.com/en/download/)
 OR
