@@ -1,0 +1,2 @@
+- name: Fetch Latest Release
+  uses: thebritican/fetch-latest-release@v2.0.0
