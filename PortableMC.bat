@@ -15,6 +15,7 @@ echo Portable Minecraft Launcher by yeeted_memezz
 echo Originaly Created By: LeeTheENTP
 echo Project Website: portablemc.github.io
 echo Please Check Out My Website yeetedmeme.js.org
+echo Thanks Everyone For 1k Downloads!
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 if not exist "%CD%\GameData\AppData\.minecraft" mkdir "%CD%\GameData\AppData\.minecraft"
 if not exist "%CD%\GameData\Minecraft" mkdir "%CD%\GameData\Minecraft"
