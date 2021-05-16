@@ -43,7 +43,7 @@ To get the program up and running follow these simple steps.
 
 **Bat Release only supports Windows**
 
-If Using The Java Release You Need: [Java](https://www.java.com/en/download/) [Some devices have Java preinstall. Works will all OS] OR [Jportable](https://portableapps.com/apps/utilities/java_portable) [Windows only]
+If Using The Java Release You Need: [Java](https://www.java.com/en/download/) (Works on all OS) OR [Jportable](https://portableapps.com/apps/utilities/java_portable) (Windows only)
 
 
 ### Installation
@@ -57,6 +57,13 @@ Java:
   ```
 
 Bat: Download And Run PortableMC.bat
+
+Command Line (Linux):
+  ```sh
+  sudo apt update
+  sudo apt install snapd
+  sudo snap install mc-installer
+  ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
