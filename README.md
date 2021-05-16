@@ -56,9 +56,13 @@ Java:
   -Xmx1G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M 
   ```
 
-Bat: Download And Run PortableMC.bat
+Bat: 
+
+1. Download And Run PortableMC.bat
 
 Command Line (Linux):
+
+1. Type this in a terminal:
   ```sh
   sudo apt update
   sudo apt install snapd
