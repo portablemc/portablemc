@@ -22,7 +22,6 @@
     <br />
     <br />
     <br />
-    ·
     <a href="https://github.com/portablemc/portablemc/issues">Report Bug</a>
     ·
     <a href="https://github.com/portablemc/portablemc/issues">Request Feature</a>
@@ -31,7 +30,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
 
 PortableMC:
 **Portable installation of Minecraft Java Edition, easy to setup and use:**
@@ -43,19 +41,22 @@ To get the program up and running follow these simple steps.
 
 ### Prerequisites
 
-If Using The Java Release You Need:
-[Java](https://www.java.com/en/download/)
-OR
-[Jportable](https://portableapps.com/apps/utilities/java_portable)
+**Bat Release only supports Windows**
 
-Normal Release Requires Windows (Mac and Linux Are Planned For The Future)
+If Using The Java Release You Need: [Java](https://www.java.com/en/download/) [Some devices have Java preinstall. Works will all OS] OR [Jportable](https://portableapps.com/apps/utilities/java_portable) [Windows only]
+
 
 ### Installation
 
-Java: Download And Run PortableMC-Java.jar
+Java: 
 
-Normal: Download And Run PortableMC.exe
+1. Download And Run PortableMC-Java.jar
+2. Change the JVM Arugments to:
+  ```sh
+  -Xmx1G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M 
+  ```
 
+Bat: Download And Run PortableMC.bat
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -69,22 +70,20 @@ Contributions are what make this project so great, Any contributions you make ar
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the Attribution-NonCommercial-ShareAlike 4.0 International License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Contact Me: - [@yeetedmeme](https://twitter.com/yeetedmeme) - portablemc@hackermail.com
 
-Project Link: [https://github.com/portablemc/portablemc](https://github.com/portablemc/portablemc)
+Project Link: [github.com/portablemc/portablemc](https://github.com/portablemc/portablemc)
 
-Project Website: [https://portablemc.github.io](https://portablemc.github.io)
+Project Website: [portablemc.ml](https://portablemc.ml/)
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/portablemc/portablemc.svg?style=for-the-badge
@@ -99,5 +98,3 @@ Project Website: [https://portablemc.github.io](https://portablemc.github.io)
 [commit-url]: https://github.com/portablemc/portablemc/blob/master/LICENSE.txt
 [downloads-shield]: https://img.shields.io/github/downloads/portablemc/portablemc/total?style=for-the-badge
 [downloads-url]: https://github.com/portablemc/portablemc/releases
-
-
