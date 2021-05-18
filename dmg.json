@@ -1,0 +1,10 @@
+{
+    "title": "Portable MC",
+    "icon": "logo.icns",
+    "window": {
+        "size": { "width": 400, "height": 400 }
+    },
+    "contents": [
+        { "x": 100, "y": 100, "type": "file", "path": "PortableMC-Java.jar" }
+    ]
+}
