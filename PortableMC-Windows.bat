@@ -46,9 +46,9 @@ echo.
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 echo Portable Minecraft Launcher by yeeted_memezz and PiSaucer
 echo Originaly Created By: LeeTheENTP
-echo Project Website: portablemc.github.io
-echo Please Check Out My Website yeetedmeme.js.org
-echo v1.3.3
+echo Project Website: portablemc.ml
+echo Please Check Out My Website yeetedmeme.codes
+echo v1.4.0
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 if not exist "%CD%\GameData\AppData\.minecraft" mkdir "%CD%\GameData\AppData\.minecraft"
 if not exist "%CD%\GameData\Minecraft" mkdir "%CD%\GameData\Minecraft"
