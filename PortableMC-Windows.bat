@@ -14,7 +14,7 @@ echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 echo Portable Minecraft Launcher by yeeted_memezz and PiSaucer
 echo Originaly Created By: LeeTheENTP
 echo Project Website: portablemc.ml
-echo Please Check Out My Website yeetedmeme.codes
+echo Please Check Out My Website greymesa
 echo v1.4.0
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 if not exist "%CD%\GameData\AppData\.minecraft" mkdir "%CD%\GameData\AppData\.minecraft"
