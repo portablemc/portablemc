@@ -11,10 +11,10 @@ echo.
 echo.
 echo.
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-echo Portable Minecraft Launcher by yeeted_memezz and PiSaucer
+echo Portable Minecraft Launcher by greymesa and PiSaucer
 echo Originaly Created By: LeeTheENTP
 echo Project Website: portablemc.ml
-echo Please Check Out My Website greymesa
+echo Please Check Out My Website greymesa.tech
 echo v1.4.0
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 if not exist "%CD%\GameData\AppData\.minecraft" mkdir "%CD%\GameData\AppData\.minecraft"
