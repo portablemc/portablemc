@@ -17,7 +17,7 @@ If you have any doubts check the sourcecode and if you have any questions or pro
 
 Yet again, thanks for downloading
 
--yeetedmeme
+-greymesa
 
 If Java has issues change the JVM Arugments to:
 -Xmx1G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M 
