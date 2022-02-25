@@ -1,4 +1,3 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y43OWWE)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -84,7 +83,7 @@ Contributions are what make this project so great, Any contributions you make ar
 <!-- LICENSE -->
 ## License
 
-Distributed under the Attribution-NonCommercial-ShareAlike 4.0 International License. See `LICENSE` for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE Version 3. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
