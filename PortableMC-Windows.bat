@@ -1,15 +1,4 @@
 @echo off
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 echo Portable Minecraft Launcher by greymesa and PiSaucer
 echo Project Website: portablemc.ml
