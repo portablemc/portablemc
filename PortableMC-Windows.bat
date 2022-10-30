@@ -14,7 +14,7 @@ echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 echo Portable Minecraft Launcher by greymesa and PiSaucer
 echo Project Website: portablemc.ml
 echo Please Check Out My Website greymesa.tech
-echo v1.4.1
+echo v1.4.2
 echo =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 if not exist "%CD%\GameData\AppData\.minecraft" mkdir "%CD%\GameData\AppData\.minecraft"
 if not exist "%CD%\GameData\Minecraft" mkdir "%CD%\GameData\Minecraft"
